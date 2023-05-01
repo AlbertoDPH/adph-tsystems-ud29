@@ -1,10 +1,18 @@
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    
+
     width: 50%;
     margin: 20px auto;
-    width: 60%;
+    width: 40%;
+}
+
+#acti {
+    width: 30%;
+}
+
+#ta_ho {
+    width: 5%;
 }
 
 table,
@@ -21,10 +29,17 @@ th {
     background-color: rgb(3, 68, 20);
 
 }
-tr:nth-child(even) {
-    background-color:  rgb(168, 242, 203);;
-  }
-  
-  tr:nth-child(odd) {
+
+tr:nth-child(4n-2),
+tr:nth-child(4n-1) {
+    background-color: rgb(168, 242, 203);
+    ;
+}
+
+tr:nth-child(4n) {
     background-color: rgb(133, 231, 133);
-  }
+}
+
+#centro {
+    text-align: center;
+}
