@@ -1,0 +1,61 @@
+.superior,
+.inferior,
+.centro {
+    position: relative;
+    border: 2px solid gray;
+    background-color: aqua;
+}
+
+.ladrillo,
+.ladrillo2 {
+    position: absolute;
+    background-image: url(/Ejercicio18/images/f01.png);
+    width: 100%;
+    color: rgba(0, 0, 0, 0)
+}
+
+.nubes,
+.nubes2,
+.mario,
+.mario2 {
+    position: absolute;
+
+}
+
+.superior {
+    width: 210px;
+    height: 117px;
+}
+
+.ladrillo {
+    margin-top: 100px;
+}
+
+.centro {
+    width: 440px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nubes2 {
+    background-image: url(/Ejercicio18/images/f03.png);
+    margin-top: 0px;
+    width: 100%;
+    height: 25%;
+    color: rgba(0, 0, 0, 0)
+}
+
+.mario2 {
+    margin-top: 190px;
+}
+
+.ladrillo2 {
+    margin-top: 284px;
+}
+
+.inferior {
+    width: 210px;
+    height: 117px;
+    margin-top: 20px;
+}
