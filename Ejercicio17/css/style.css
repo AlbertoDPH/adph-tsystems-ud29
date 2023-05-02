@@ -6,7 +6,7 @@ body {
     max-width: 600px;
     width: 600px;
     height: 450px;
-    background-image: url(/Ejercicio17/images/ac.jpg);
+    background-image: url(./ac.jpg);
 }
 
 .modA,
@@ -25,9 +25,29 @@ body {
     position: absolute;
 }
 
-.modA,
 .modC,
 .modE,
+.modF,
+.modG,
+.modH {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.modF,
+.modG,
+.modH {
+    background-size: cover;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+}
+
+.modD,
+.modF {
+    border: 20px solid rgb(204, 204, 204);
+}
+
+.modA,
 .modI,
 .modJ,
 .modK,
@@ -37,69 +57,68 @@ body {
 }
 
 .modA {
-    background-image: url(/Ejercicio17/images/back_mantel.jpg);
+    background-image: url(./back_mantel.jpg);
     margin-left: 10px;
     margin-top: 10px;
-
 }
 
 .modB {
-    background-image: url(/Ejercicio17/images/back_mantel.jpg);
+    background-image: url(./back_mantel.jpg);
     margin-left: 170px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 80px;
-    height: 80px;
+    height: 70px;
 }
 
 .modC {
-    background-image: url(/Ejercicio17/images/back_mantel.jpg);
+    background-image: url(./back_mantel.jpg);
     margin-left: 300px;
     margin-top: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .modD {
-    background-image: url(/Ejercicio17/images/back_mantel.jpg);
+    background-image: url(./back_mantel.jpg);
     margin-left: 450px;
     margin-top: 10px;
     width: 70px;
     height: 70px;
-    border: 20px solid rgb(204, 204, 204);
+
 }
 
 .modE {
-    background-image: url(/Ejercicio17/images/dh.jpg);
+    background-image: url(./dh.jpg);
     margin-left: 10px;
     margin-top: 150px;
+    width: 110px;
+    height: 110px;
 }
 
 .modF {
-    background-image: url(/Ejercicio17/images/dh.jpg);
+    background-image: url(./dh.jpg);
     margin-left: 150px;
     margin-top: 150px;
     width: 80px;
     height: 70px;
-    border: 20px solid rgb(204, 204, 204);
 }
 
 .modG {
-    background-image: url(/Ejercicio17/images/dh.jpg);
+    background-image: url(./dh.jpg);
     margin-left: 300px;
     margin-top: 150px;
     width: 100px;
     height: 50px;
-    border-style: solid;
-    border-color: rgb(204, 204, 204);
     border-width: 30px 0px;
 }
 
 .modH {
-    background-image: url(/Ejercicio17/images/dh.jpg);
+    background-image: url(./dh.jpg);
+    background-position: 40%;
     margin-left: 450px;
     margin-top: 150px;
     width: 70px;
     height: 110px;
-    border-style: solid;
-    border-color: rgb(204, 204, 204);
     border-width: 0px 20px;
 }
 
@@ -107,22 +126,26 @@ body {
     background: linear-gradient(to right, #d2ff52 0%, #566647 100%);
     margin-left: 10px;
     margin-top: 300px;
+
 }
 
 .modJ {
     background: linear-gradient(to bottom, rgba(240, 183, 161, 1) 0%, rgba(148, 51, 161, 1) 80%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
     margin-left: 160px;
     margin-top: 300px;
+
 }
 
 .modK {
     background: linear-gradient(to top, rgb(192, 223, 176) 0%, rgb(69, 128, 13) 100%);
     margin-left: 300px;
     margin-top: 300px;
+
 }
 
 .modL {
     background: linear-gradient(to top, rgba(192, 223, 176, 1) 10%, rgba(69, 128, 1, 0) 100%);
     margin-left: 450px;
     margin-top: 300px;
+
 }
