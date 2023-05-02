@@ -1,0 +1,26 @@
+#espana {
+    text-align: left;
+}
+
+p {
+    width: 800px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th,
+td {
+    border-style: double;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    ;
+}
