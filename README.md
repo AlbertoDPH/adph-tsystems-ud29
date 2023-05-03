@@ -26,9 +26,9 @@ Ejercicio 18
 https://albertodph.github.io/adph-tsystems-ud29/Ejercicio18/
 
 Ejercicio 19
-https://albertodph.github.io/adph-tsystems-ud29/Ejercicio19/index.html
+https://albertodph.github.io/adph-tsystems-ud29/Ejercicio19/
 
 Ejercicio20
-https://albertodph.github.io/adph-tsystems-ud29/Ejercicio20/index.html
+https://albertodph.github.io/adph-tsystems-ud29/Ejercicio20/
 
 
